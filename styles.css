@@ -1,0 +1,56 @@
+.instagram-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.insta-phone img {
+    display: none;
+    width: 50px;
+}
+
+.insta-logo img {
+    width: 170px;
+    margin: 15% 0;
+}
+
+#login,
+#senha {
+    padding: 10px;
+    outline: none;
+    border: solid 01px rgb(224, 224, 224);
+    border-radius: 4px;
+    margin: 1% 0;
+}
+
+.btn-iniciar-sessao {
+    border: none;
+    border-radius: 8px;
+    background-color: #4CB5F9;
+    padding: 0.5rem 3.25rem;
+    margin: 2% 0;
+    font-weight: 600;
+    color: white;
+    font-size: 0.80rem;
+}
+
+.separacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right {
+    padding: 0px 40px;
+    border-top: grey solid 1px;
+}
+
+.stores {
+    display: flex;
+    justify-content: center;
+}
+
+.store img {
+    padding: 10px;
+    width: 80px;
+}
